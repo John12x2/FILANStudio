@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: #ffeae3;
+
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  text-shadow: 2px 1px grey;
+  text-align: center;
+}
+
+h2,
+h1,
+p {
+  color: rgb(255, 255, 255);
+}
+
+p {
+  text-align: center;
+  font-weight: 700;
+  padding: 0px;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #2d4997;
+
+  text-align: right;
+  font-weight: bold;
+}
+
+a {
+  font-size: 18px;
+  color: white;
+
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+i {
+  color: white;
+}
+
+li {
+  display: inline;
+  list-style-type: none;
+
+  margin: 10px;
+  padding: 10px;
+}
+
+nav a {
+  font-family: "Quicksand" sans-serif;
+  font-size: 18px;
+
+  font-weight: 400;
+  text-decoration: none;
+
+  color: white;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+
+  display: flex;
+  gap: 1.5rem;
+
+  overflow: auto;
+}
+
+nav {
+  background-color: #2d4997;
+  padding: 5px;
+
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  padding-inline: 4rem;
+  display: flex;
+
+  gap: 2rem;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+header {
+  display: inline;
+}
+
+aside {
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  float: right;
+}
+
+i {
+  color: black;
+}
+
+.emoji {
+  color: white;
+}
+
+.profile header {
+  text-align: center;
+  color: white;
+}
+
+.profile img {
+  width: 200px;
+}
+
+.color {
+  color: black;
+  text-shadow: none;
+}
+
+.card {
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: #222831;
+
+  padding: 20px;
+  margin: 0px;
+}
+
+.jumbotron {
+  font-size: 20px;
+  padding: 60px;
+  background-color: #2d4997;
+  text-align: center;
+  color: white;
+}
+
+.ulcontact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+
+.pfooter {
+  text-align: right;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 1rem;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.img {
+  margin-top: 2rem;
+}
+
+#content {
+  width: 75%;
+  flex: 5;
+
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem 2rem;
+}
+
+#logo {
+  align-self: center;
+  width: 300px;
+}
+
+#contact {
+  text-align: left;
+  vertical-align: bottom;
+}
+
+#navmemo {
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    justify-content: center;
+  }
+
+  main aside {
+    align-self: stretch;
+  }
+}
