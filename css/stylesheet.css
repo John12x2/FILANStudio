@@ -158,13 +158,10 @@ i {
 }
 
 .ulcontact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   padding: 0px;
   margin: 0px;
   text-align: left;
+  vertical-align: bottom;
 }
 
 .img {
