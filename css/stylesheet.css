@@ -1,13 +1,32 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Quicksand", sans-serif;
-  background-color: #ffeae3;
-
+body,
+html {
+  height: 100%;
   margin: 0;
   padding: 0;
+  font-family: "Quicksand", sans-serif;
+  background-color: #ffeae3;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+/* Main Content Layout */
+main {
+  flex: 1;
+  max-width: 1200px; /* Set maximum width for main content */
+  margin: 0 auto; /* Center the main content horizontally */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 h1,
@@ -20,6 +39,7 @@ h2,
 h1,
 p {
   color: rgb(255, 255, 255);
+  word-wrap: break-word;
 }
 
 p {
@@ -35,6 +55,9 @@ footer {
 
   text-align: right;
   font-weight: bold;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: auto; /* Keeps the footer at the bottom */
 }
 
 a {
@@ -75,15 +98,6 @@ nav a:hover {
   font-weight: bold;
 }
 
-main {
-  padding: 20px;
-
-  display: flex;
-  gap: 1.5rem;
-
-  overflow: auto;
-}
-
 nav {
   background-color: #2d4997;
   padding: 5px;
@@ -120,6 +134,26 @@ img {
 
 i {
   color: black;
+}
+
+.iframe-container {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.pdf-link {
+  color: black;
+  font-size: 16px;
+}
+
+.pdf-link a {
+  color: black;
+  text-decoration: none;
+}
+
+.pdf-link a:hover {
+  text-decoration: none;
 }
 
 .emoji {
