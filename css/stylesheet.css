@@ -135,6 +135,8 @@ i {
   width: 500px;
   position: relative;
   margin: 0 auto;
+
+  border-radius: 50px;
 }
 
 .iframe-container {
