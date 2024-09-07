@@ -129,6 +129,14 @@ i {
   color: black;
 }
 
+.div img {
+  display: block;
+  padding: 20px;
+  width: 500px;
+  position: relative;
+  margin: 0 auto;
+}
+
 .iframe-container {
   text-align: center;
   margin: 0 auto;
