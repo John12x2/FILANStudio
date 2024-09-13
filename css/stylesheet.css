@@ -259,6 +259,7 @@ i {
 #content {
   width: 75%;
   flex: 5;
+  padding: 20px;
 
   display: flex;
   flex-flow: column nowrap;
