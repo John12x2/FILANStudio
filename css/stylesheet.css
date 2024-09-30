@@ -24,6 +24,7 @@ main {
 
 h1,
 h2 {
+  margin: 10px;
   text-align: center;
 }
 
@@ -35,6 +36,7 @@ p {
 }
 
 p {
+  margin: 10px;
   text-align: center;
   font-weight: 700;
   padding: 0px;
