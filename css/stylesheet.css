@@ -131,7 +131,7 @@ i {
   margin: 0 auto;
 }
 
-.margin h1, p {
+.margin h2, p, img {
   margin: 10px;
 }
 
