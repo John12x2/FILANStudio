@@ -24,7 +24,6 @@ main {
 
 h1,
 h2 {
-  margin: 10px;
   text-align: center;
 }
 
@@ -36,7 +35,6 @@ p {
 }
 
 p {
-  margin: 10px;
   text-align: center;
   font-weight: 700;
   padding: 0px;
@@ -131,6 +129,10 @@ i {
   width: 500px;
   position: relative;
   margin: 0 auto;
+}
+
+.margin h1, p {
+  margin: 10px;
 }
 
 .iframe-container {
