@@ -253,6 +253,18 @@ i {
   margin-top: 2rem;
 }
 
+.gap-4 {
+  gap: 2rem;
+}
+
+#download {
+  margin: 10px;
+}
+
+#notice {
+  color: orangered;
+}
+
 #logo {
   align-self: center;
   width: 300px;
