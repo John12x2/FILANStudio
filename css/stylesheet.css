@@ -131,7 +131,9 @@ i {
   margin: 0 auto;
 }
 
-.margin h2, p, img {
+.margin h2,
+p,
+img {
   margin: 10px;
 }
 
@@ -186,6 +188,7 @@ i {
   display: block;
   position: relative;
   font-size: 20px;
+  margin: 0 auto;
   padding: 60px;
   background-color: #2d4997;
   color: white;
@@ -208,11 +211,15 @@ i {
 }
 
 .jumbotron img {
-  position: absolute;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  width: 100px;
+  position: relative;
+  width: 150px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 75px;
 }
 
 .ulcontact {
@@ -229,8 +236,14 @@ i {
   width: 1000px;
 }
 
+.footer {
+  font-size: 30px;
+  font-weight: 500;
+}
+
 .pfooter {
   text-align: right;
+  font-size: 20px;
 }
 
 .link {
@@ -272,6 +285,7 @@ i {
 #contact {
   text-align: left;
   vertical-align: bottom;
+  font-size: 20px;
 }
 
 #navmemo {
